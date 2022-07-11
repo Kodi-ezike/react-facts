@@ -27,9 +27,8 @@
 }
 #root{
   background-color: var(--base-bg-color);
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   width: 100%;
-  margin: 0;
   transition: background-color 1s ease, color 1s ease;
 }
 nav, main, footer{
@@ -102,22 +101,24 @@ main{
   padding-bottom: 100px;
 }
 footer{
-  background: var(--body-bg-color);
-  margin-top: -20px;
+  margin-top: 70px;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 
 @media screen and (max-width:600px) {
-  nav, main, footer{
+  nav, main{
     width: 450px;
     margin: auto;
+  }
+  footer{
+    width: 450px;
+    margin-top: 70px;
   }
 }
 
 @media screen and (max-width:500px) {
-  nav, main, footer{
+  nav, main{
     width: 350px;
     margin: auto;
   }
@@ -153,19 +154,31 @@ footer{
   .list li{
     font-size: 16px;
   }
+  footer{
+    width: 350px;
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width:400px) {
-  nav, main, footer{
+  nav, main{
     width: 300px;
     margin: auto;
+  }
+  footer{
+    width: 300px;
+    margin-top: 70px;
   }
 }
 
 @media screen and (max-width:350px) {
-  nav, main, footer{
+  nav, main{
     width: 280px;
     margin: auto;
+  }
+  footer{
+    width: 280px;
+    margin-top: 70px;
   }
 }
 
