@@ -31,7 +31,7 @@
   width: 100%;
   transition: background-color 1s ease, color 1s ease;
 }
-nav, main, footer{
+nav, main{
   width: 500px;
   margin: auto;
   color: var(--text-color);
@@ -101,8 +101,9 @@ main{
   padding-bottom: 100px;
 }
 footer{
-  margin-top: 70px;
+  margin-top: 60px;
   text-align: center;
+  color: var(--text-color);
 }
 
 
@@ -112,8 +113,7 @@ footer{
     margin: auto;
   }
   footer{
-    width: 450px;
-    margin-top: 70px;
+    margin-top: 80px;
   }
 }
 
@@ -154,20 +154,12 @@ footer{
   .list li{
     font-size: 16px;
   }
-  footer{
-    width: 350px;
-    margin-top: 70px;
-  }
 }
 
 @media screen and (max-width:400px) {
   nav, main{
     width: 300px;
     margin: auto;
-  }
-  footer{
-    width: 300px;
-    margin-top: 70px;
   }
 }
 
@@ -176,9 +168,6 @@ footer{
     width: 280px;
     margin: auto;
   }
-  footer{
-    width: 280px;
-    margin-top: 70px;
-  }
 }
+
 
